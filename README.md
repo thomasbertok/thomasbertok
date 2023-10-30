@@ -1,6 +1,5 @@
 ### Hi, Thomas here! 👋
-
-
+ 
 I'm a Frontend Developer with over a decade of experience in the world of web development. 
 I've had the privilege of working with a wide range of technologies and frameworks. 
 
