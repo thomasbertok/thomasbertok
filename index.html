@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV // Thomas Bertok</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
     <style>
         body {
-            font-family: monospace;
+            font-family: 'Source Code Pro', monospace;
             color: #333;
             background-color: #fefef0;
-            letter-spacing: -0.01rem;
-            font-size: 1rem;
+            letter-spacing: -0.025rem;
+            font-weight: 400;
         }
         
         .background {
@@ -28,25 +34,25 @@
         }
     </style>
 </head>
-<body class="relative">
+<body class="relative text-sm md:text-lg">
 
     <div class="background"></div>
 
-    <main class="relative container mx-auto px-8 lg:px-0  py-16 flex flex-col gap-16 max-w-4xl z-10">
+    <main class="relative container mx-auto px-4 md:px-8 lg:px-0  py-16 flex flex-col gap-16 max-w-4xl z-10">
 
         <header class="flex flex-col gap-4">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="text-center md:text-left w-full order-2 md:order-1">
                     <h1 class="text-5xl font-bold mb-4">Thomas Bertok</h1>
-                    <ul class="flex gap-6 justify-center md:justify-start">
-                        <li><a class="text-orange-500 underline" href="mailto:thomasbertok@gmail.com">thomasbertok@gmail.com</a></li>
-                        <li><a class="text-orange-500 underline" href="https://linkedin.com/in/thomasbertok" target="_blank">LinkedIn</a></li>
-                        <li><a class="text-orange-500 underline" href="https://github.com/thomasbertok" target="_blank">GitHub</a></li>
+                    <ul class="flex gap-6 justify-center md:justify-start flex-wrap">
+                        <li><a class="text-orange-600 underline" href="mailto:thomasbertok@gmail.com">thomasbertok@gmail.com</a></li>
+                        <li><a class="text-orange-600 underline" href="https://linkedin.com/in/thomasbertok" target="_blank">LinkedIn</a></li>
+                        <li><a class="text-orange-600 underline" href="https://github.com/thomasbertok" target="_blank">GitHub</a></li>
                     </ul>
                 </div>
                 <div class="order-1 md:order-2 mb-4">
                     <div class="p-2 bg-white/20 rounded rounded-full">
-                        <img src="assets/face.jpg" alt="" class="rounded rounded-full w-48">
+                        <img src="assets/face.jpg" alt="" class="rounded rounded-full w-48 hover:">
                     </div>
                 </div>
             </div>
@@ -55,11 +61,9 @@
 
         <section class="work-experience">
             <h2 class="text-2xl font-bold mb-12">Work Experience</h2>
-
-
             <div class="work-block mb-20">
                 <div class="work-header flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
-                    <h3 class="font-bold text-xl">Web developer, Evozon Systems</h3>
+                    <h3 class="font-bold text-xl">Web Developer @ Evozon Systems</h3>
                     <p class="text-gray-500">May 2012 - Sep 2023 (11y 4m)</p>
                 </div>
 
@@ -87,16 +91,15 @@
 
             <div class="work-block mb-20">
                 <div class="work-header flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
-                    <h3 class="font-bold text-xl">Frontent development, Braintuitive</h3>
+                    <h3 class="font-bold text-xl">Frontent developer @ Braintuitive</h3>
                     <p class="text-gray-500">Jan 2011 - Apr 2012 (1y 3m)</p>
                 </div>
 
                 <div class="flex mb-10 gap-2 flex-wrap">
                     <span class="inline-flex items-center rounded-md bg-yellow-100 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">HTML</span>
-                    <span class="inline-flex items-center rounded-md bg-yellow-100 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">HTML</span>
                     <span class="inline-flex items-center rounded-md bg-yellow-100 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">CSS</span>
                     <span class="inline-flex items-center rounded-md bg-yellow-100 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">LESS</span>
-                    <span class="inline-flex items-center rounded-md bg-yellow-100 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Photoshop</span>
+                    <span class="inline-flex items-center rounded-md bg-yellow-100 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Adobe Photoshop</span>
                     <span class="inline-flex items-center rounded-md bg-yellow-100 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">WordPress</span>
                     <span class="inline-flex items-center rounded-md bg-yellow-100 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">PHP</span>
                     <span class="inline-flex items-center rounded-md bg-yellow-100 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Zend Framework</span>
@@ -104,16 +107,16 @@
                 </div>
                 <ul class="list-disc list-outside ml-6">
                     <li class="mb-3">Developed custom Wordpress templates to meet the unique design requirements of our clients.</li>
-                    <li class="mb-3">Created frontend interfaces for Zend-based backends, utilizing mustache templating engine, jQuery, and preprocessors like LESS.</li>
+                    <li class="mb-3">Created frontend interfaces for Zend-based backends, using Mustache as templating engine, jQuery, and preprocessors like LESS.</li>
                     <li class="mb-3">Implemented admin panel templates from scratch, without relying on any frameworks.</li>   
-                    <li class="mb-3">Using six separate browsers on four separate computers for website testing purposes (IE11 era)</li>
+                    <li class="mb-3">Testing websites using six separate browsers on four separate computers in the same time (IE11 era)</li>
                 </ul>
             </div>
 
 
             <div class="work-block mb-20">
                 <div class="work-header flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
-                    <h3 class="font-bold text-xl">Frontend developer, Freelancing</h3>
+                    <h3 class="font-bold text-xl">Frontend developer, freelancing</h3>
                     <p class="text-gray-500">Jan 2006 - Dec 2010</p>
                 </div>
                 <div class="flex mb-10 gap-2 flex-wrap">
@@ -121,12 +124,12 @@
                     <span class="inline-flex items-center rounded-md bg-yellow-100 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">CSS </span>
                     <span class="inline-flex items-center rounded-md bg-yellow-100 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Photoshop </span>
                     <span class="inline-flex items-center rounded-md bg-yellow-100 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">Wordpress</span>
-                    <span class="inline-flex items-center rounded-md bg-yellow-100 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">PHP </span>
+                    <span class="inline-flex items-center rounded-md bg-yellow-100 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">PHP</span>
                 </div>
                 <ul class="list-disc list-outside ml-6">
                     <li class="mb-3">Developed Photoshop to Wordress templates, effectively translating design concepts into functional websites.</li>
-                    <li class="mb-3">Created a visually stunning presentation website for a luxury kitchen furniture company, incorporating PHP backend functionality to enhance user experience.</li>
-                    <li class="mb-3">Designed and implemented customized WordPress templates, resulting in seamless website setups for various clients</li>
+                    <li class="mb-3">Created visually stunning presentation website for a luxury kitchen furniture company, incorporating PHP backend functionality to enhance user experience.</li>
+                    <li class="mb-3">Designed and implemented custom WordPress templates, resulting in seamless website setups for various clients</li>
                     <li class="mb-3">Utilized my expertise in Photoshop to create original designs that were successfully transformed into fully functional WordPress templates.</li>
                 </ul>
             </div>
@@ -142,9 +145,9 @@
                         <h3 class="font-bold text-xl">
                             Babeș-Bolyai University, Cluj Napoca
                         </h3>
-                        <p class="text-gray-600">Jan 2011 - Apr 2012 (1y 3m)</p>
+                        <p class="text-gray-600">Jan 2003 - Apr 2006</p>
                     </div>
-                    <div>Computer Science</div>
+                    <div>Faculty of Mathematics and Computer Science</div>
                 </div>
     
                 <div class="flex flex-col gap-1 flex-1">
@@ -163,7 +166,7 @@
         <section class="more-about-me">
             <h2 class="text-2xl font-bold mb-10">More about me</h2>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 grid-flow-row gap-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 grid-flow-row gap-8 md:gap-16">
 
                 <div class="">
                     <h4 class="font-bold text-lg mb-2">In my next job it's important that...</h4>
