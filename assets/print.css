@@ -1,0 +1,14 @@
+@page {
+    size: A4 portrait;
+    margin: 1.5cm;
+}
+
+body {
+    font-family: "Source Code Pro", monospace, sans-serif;
+    background: #fff;
+    color: #000;
+}
+
+.background {
+    display: none;
+}
