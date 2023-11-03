@@ -1,28 +1,28 @@
 body {
-    font-family: "Source Code Pro", monospace;
-    color: #332f2d;
-    background-color: #fefaf0;
-    letter-spacing: -0.033rem;
-    font-weight: 400;
+  font-family: "Source Code Pro", monospace;
+  color: #332f2d;
+  background-color: #fefaf0;
+  letter-spacing: -0.033rem;
+  font-weight: 400;
 }
 
 .background {
-    display: block;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    background: url(background.jpg) no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    opacity: 0.5;
-    filter: blur(33px);
+  display: block;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: url(background.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.5;
+  filter: blur(33px);
 }
 
 .break {
-    break-before: always;
-    display: block;
-    clear: both;
+  break-before: always;
+  display: block;
+  clear: both;
 }
 
 h1,
@@ -30,15 +30,28 @@ h2,
 h3,
 h4,
 h5 {
-    opacity: 0.9;
+  opacity: 0.9;
+}
+
+h2 {
+  text-decoration: underline;
 }
 
 .badges span {
-    cursor: default;
-    transition: transform 0.125s linear;
-    transform: scale(1);
+  cursor: default;
+  transition: transform 0.125s linear;
+  transform: scale(1);
 }
 
 .badges > span:hover {
-    transform: scale(1.125);
+  transform: scale(1.125);
+  background-color: rgb(254, 249, 195);
+}
+
+.more-block {
+  display: none;
+}
+
+span:hover + .more-block {
+  display: inline-block;
 }
