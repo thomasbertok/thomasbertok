@@ -12,5 +12,5 @@ I've had the privilege of working with a wide range of technologies and framewor
 🌟 Here you can find some of the projects I'm working on, always learning new technologies, putting it together bit by bit.
 
 📫 Catch me on [linkedin](https://www.linkedin.com/in/thomasbertok/)\
-⚡ Check out my [musical side](https://soundcloud.com/innerstorm)\
-📚 Check out my [resume](https://thomasbertok.github.io/thomasbertok/)
+📚 Check out my [resume](https://thomasbertok.github.io/thomasbertok/)\
+💼 Download my [resume](https://thomasbertok.github.io/thomasbertok/Thomas-Bertok-Resume.pdf)
