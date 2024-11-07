@@ -9,7 +9,7 @@ I've had the privilege of working with a wide range of technologies and framewor
 
 🔭 When I'm not immersed in code, I enjoy tinkering with my homelab and extend its hardware capabilities. I like to experiment with projects on Raspberry Pi hardware making it beep boop with Python and all that's Linux. Yeah, and I make music sometimes.
 
-🌟 Here you can find some of the projects I'm working on, always learning new technologies, putting it together bit by bit.
+🌟 Here you can find some of the projects I'm working on, always learning new technologies, putting it together bit by bit. This text was mainly written by _ai_, but under my thorough supervision. 
 
 📫 Catch me on [linkedin](https://www.linkedin.com/in/thomasbertok/)\
 📚 Check out my [resumé](https://thomasbertok.github.io/thomasbertok/)\
